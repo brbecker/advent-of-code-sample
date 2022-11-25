@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="advent-of-code-sample",
+    name="advent-of-code-brbecker",
     version="0.1",
-    description="myusername's solutions for https://adventofcode.com/",
-    url="https://github.com/myusername/advent-of-code-myusername",
-    author="My Username",
-    author_email="myusername@example.com",
+    description="brbecker's solutions for https://adventofcode.com/",
+    # url="https://github.com/myusername/advent-of-code-myusername",
+    # author="My Username",
+    # author_email="myusername@example.com",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     classifiers=[
@@ -20,6 +20,6 @@ setup(
     ],
     packages=find_packages(),
     entry_points={
-        "adventofcode.user": ["myusername = mypackage:mysolve"],
+        "adventofcode.user": ["brbecker = mypackage:mysolve"],
     },
 )
